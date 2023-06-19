@@ -1,0 +1,199 @@
+.footer-section {
+    /* background: url("../assets/footer_background.png");
+    background-repeat: no-repeat;
+    height: auto;
+    overflow: hidden; */
+    margin-bottom: 100px;
+}
+
+.footer-back-image {
+
+    background: #1A1F39;
+    background-repeat: no-repeat;
+    height: auto;
+    overflow: hidden;
+}
+
+.footer-block {
+    display: flex;
+    justify-content: space-around;
+}
+
+.Our-Company-div {
+    padding-top: 20px;
+    color: #FFFFFF;
+}
+
+.Build-Your-Team-div {
+    padding-top: 20px;
+    color: #FFFFFF;
+}
+
+.Services-div-footer {
+    padding-top: 20px;
+    color: #FFFFFF;
+}
+
+.Resources-footer {
+    padding-top: 20px;
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 800px) {
+    .footer-block {
+        display: grid;
+    }
+
+}
+
+.footer-hr {
+    /* background-color: gold; */
+    /* width: 50%; */
+    display: flex;
+    justify-content: center;
+}
+
+.footer-line {
+    color: #FEFEFE;
+    width: 85%;
+}
+
+.footer-sec-2 {
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.footer-email-input {
+    width: 326px;
+    height: 55px;
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-radius: 6px;
+    margin-left: 10px;
+}
+
+.footer-region {
+    width: 195px;
+    height: 55px;
+    border: 2px solid #FFFFFF;
+    border-radius: 6px;
+    margin-left: 10px;
+}
+
+
+.socail-media-icons {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.social-media {
+    padding-left: 30px;
+}
+
+.footer-sec-2-div1 {
+    padding: 10px;
+}
+
+.footer-sec-1-div2 {
+    padding: 20px;
+}
+
+@media screen and (max-width: 930px) {
+    .footer-sec-2 {
+        display: grid;
+    }
+
+    .footer-email-input {
+        width: 300px;
+        height: 40px;
+    }
+
+}
+
+
+.footer-sec-3 {
+    display: flex;
+    justify-content: end;
+
+    padding: 20px;
+}
+
+.footer-sec-3-span {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+
+    color: #F2C94C;
+}
+
+
+.footer-sec-4 {
+    color: #FFFFFF;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 30px;
+
+    display: flex;
+    justify-content: space-around;
+}
+
+@media screen and (max-width: 900px) {
+    .footer-sec-4 {
+        display: grid;
+    }
+
+    
+}
+@media screen and (max-width: 900px) {
+    .vertical-line{
+        width: 30px;
+        height: 10px;
+    }
+   
+}
+
+.footer-sec-4-1 {
+    margin: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.vertical-line {
+    width: 5px;
+    background-color:  #FFFFFF;
+    height: 200px;
+    margin-left: 20px;
+    margin-top: 20px;
+    position: relative;
+}
+.footer-sec-4-1-1{
+    display: flex;
+    justify-content: center;
+}
+
+.footer-hr-1 {
+    display: flex;
+    justify-content: center;
+    margin-top: -10px;
+}
+
+.footer-line-1 {
+    color: #FEFEFE;
+    width: 85%;
+}
+
+.footer-end{
+    color: #FEFEFE;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}

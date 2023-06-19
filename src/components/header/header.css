@@ -1,0 +1,12 @@
+.cont:hover{
+    transform: scale(1.1)!important;
+}
+.nav-link:hover{
+    transform: scale(1.4);
+}
+
+.logo{
+    width: 50px;
+height: 50px;
+padding-right: 5px;
+}

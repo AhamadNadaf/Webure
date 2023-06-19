@@ -1,0 +1,93 @@
+.career-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.career-text {
+    width: 297px;
+    height: 77px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.career-text1 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    color: #FF5D22;
+    text-align: center;
+}
+
+.career-text2 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 49px;
+    /* identical to box height */
+    text-align: center;
+
+    color: #000000;
+}
+
+.career-sec {
+    margin-left: 50x;
+    margin-right: 50px;
+}
+
+.career-section-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    margin-bottom: 100px;
+
+}
+
+@media screen and (max-width: 1100px) {
+    .career-section-2 {
+        display: grid;
+        padding-left: 30px;
+        padding-right: 20px;
+    }
+}
+
+.career-sec-3 {
+    background: url('../assets/Rectangle.png');
+    background-repeat: no-repeat;
+    width: auto;
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+}
+
+.Pricing-Plans-text {
+    width: 128px;
+    height: 27px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+
+    /* Orange dark */
+
+    color: #FF5D22;
+}
+
+.Pricing-Plans-text2 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 49px;
+    text-align: center;
+    color: #000000;
+
+}

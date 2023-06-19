@@ -1,0 +1,148 @@
+.about-section {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.heading-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.h2-sec {
+    color: #FF5D22;
+}
+
+.heading-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.about-center-section {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px;
+}
+
+.about-center-sec {
+    display: grid;
+    width: 320px;
+    height: 384px;
+    padding-top: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.about-center-sec:hover {
+    transform: scale(1.1);
+}
+
+.mid-card {
+    background: #FFFFFF;
+    box-shadow: 0px 4.09207px 25.2717px 6.52174px rgba(0, 0, 0, 0.2);
+    border-radius: 12.2283px;
+}
+
+@media screen and (max-width: 1100px) {
+    .about-center-section {
+        display: grid;
+    }
+
+    .about-center-sec {
+        margin-top: 50px;
+    }
+
+}
+
+.all-features-button {
+    display: grid;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.all-features-button button {
+    width: 140px;
+    height: 46px;
+    background: #EBF2F3;
+    border: 0px;
+    border-radius: 50px;
+    text-align: center;
+
+    color: #000000;
+
+}
+
+.all-features-button button:hover {
+    transform: scale(1.2);
+}
+
+.about-2-grid {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px;
+}
+
+.card-sec-2 {
+    margin-top: 70px;
+}
+
+@media screen and (max-width: 1100px) {
+    .about-2-grid {
+        display: grid;
+        padding: 100px;
+    }
+}
+
+.readMore:hover {
+    transform: scale(1.1);
+}
+
+.about-box-section {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 200px;
+}
+
+.about-box {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    width: 268px;
+    height: 268px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 22.3333px 0.930555px rgba(238, 238, 238, 0.88);
+    border-radius: 23.2639px;
+}
+
+.number-span {
+    font-size: 93.0556px;
+    line-height: 127px;
+    color: #333333;
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.word-sapn {
+    font-size: 27.9167px;
+    line-height: 38px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    color: #828282;
+
+}
+
+@media screen and (max-width: 800px) {
+    .about-box-section {
+        display: grid;
+    }
+}
